@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 
 import "./App.css";
 
@@ -32,7 +33,10 @@ function App() {
     console.log(formData);
   }
   return (
-    <div className=" d-flex justify-content-center align-items-center">
+   <div>
+    <h1 className="heading">Registration Form</h1>
+    <div className=" d-flex justify-content-center align-items-center ">
+      
       <form className=" mt-3 m-3" onSubmit={submitHandler}>
         <div>
           <label className="form-label" htmlFor="firstName">
@@ -267,6 +271,7 @@ function App() {
         </fieldset>
         <button className="btn btn-primary">save</button>
       </form>
+    </div>
     </div>
   );
 }
