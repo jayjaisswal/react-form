@@ -35,6 +35,7 @@ function App() {
   return (
    <div>
     <h1 className="heading">Registration Form</h1>
+    
     <div className=" d-flex justify-content-center align-items-center ">
       
       <form className=" mt-3 m-3" onSubmit={submitHandler}>
